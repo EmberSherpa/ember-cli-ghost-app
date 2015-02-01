@@ -3,11 +3,7 @@
 `ember-cli-ghost-app` adds a Ghost app to your Ember project. This addon adds /ghost to your Express server and Ghost will automatically start when you run `ember serve`.
 It also exposes **/ghost/api/v0.1/posts** endpoint which you can use to pull posts from Ghost app.
 
-**WARNING**: Ghost source code is included as a bundledDependency of this library. The included version has been modified in several places to disable the frontend and expose /posts API endpoint. 
-
-You can see the changes here:
-* [/node_modules/ghost/core/server/middleware/middleware.js#L61](/node_modules/ghost/core/server/middleware/middleware.js#L61)
-* [/node_modules/ghost/core/server/middleware/index.js#L338](/node_modules/ghost/core/server/middleware/index.js#L338)
+**WARNING**: Ghost source code is included as a bundledDependency of this library. The included version has been modified in several places to disable the frontend and expose /posts API endpoint. You can compare changes in [embersherpa/TryGhost](https://github.com/embersherpa/Ghost/compare/ember-cli-ghost-app-hacks) repo.
 
 ## Installation
 
