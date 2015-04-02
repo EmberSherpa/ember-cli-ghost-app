@@ -1,3 +1,7 @@
+[FAILED EXPERIMENT DO NOT USE]
+
+This library was going to use EmberCLI's server mechanism to add necessary headers to work around Ghost's private API. This proved to be wrong approach because EmberCLI's server is not designed for production. A more reliable way would be to use Ghost's API, which is not available yet. 
+
 # ember-cli-ghost-app
 
 `ember-cli-ghost-app` adds a Ghost app to your Ember project. This addon adds /ghost to your Express server and Ghost will automatically start when you run `ember serve`.
