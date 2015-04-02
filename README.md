@@ -1,4 +1,4 @@
-[FAILED EXPERIMENT DO NOT USE]
+# [FAILED EXPERIMENT - DO NOT USE]
 
 This library was going to use EmberCLI's server mechanism to add necessary headers to work around Ghost's private API. This proved to be wrong approach because EmberCLI's server is not designed for production. A more reliable way would be to use Ghost's API, which is not available yet. 
 
